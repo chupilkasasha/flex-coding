@@ -1,0 +1,42 @@
+body{
+  padding: 40px;
+}
+
+
+.inputText{
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 175px;
+}
+.inputText:focus{
+  background-color: rgb(255, 111, 111);
+  box-shadow: 0 0 10px rgb(133, 133, 133);
+}
+
+.btn{
+  padding: 10px 15px;
+  display: block;
+  width: 200px;
+  text-transform: uppercase;
+}
+.link:hover{
+  color: aqua;
+
+}
+
+
+.list li{
+  position: relative;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  list-style: none;
+}
+.list li:before{
+  content: '';
+  background: url('../img/checkmark_120290.png') 0 0 no-repeat;
+  position: absolute; 
+  width: 300px;
+  height: 300px;
+  top: -5px;
+  left: 0;
+}
